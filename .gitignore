@@ -1,0 +1,58 @@
+# Unreal Engine build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore autosaves, backups, and temporary files
+*.log
+*.tmp
+*.bak
+*.autosave
+*.dmp
+*.local
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Unreal LLM memory reports
+*.memreport
+*.llm
+
+# Ignore user-specific and IDE files
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+.vscode/
+.vs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Allow only actual content files
+!Content/**/*.uasset
+!Content/**/*.umap
+
+# Ignore local project launcher profiles
+*.uprojectdirs
+*.launch
+
+# Ignore crash context files
+**/CrashContext.runtime-xml
+Saved/**/CrashContext.runtime-xml
+
+# Optional: ignore plugins if not versioned
+Plugins/Developer/
+Plugins/Marketplace/
+
+# Optional: Visual Studio Code workspace settings
+.vscode/settings.json
+.vscode/launch.json
